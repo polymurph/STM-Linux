@@ -3,6 +3,11 @@
 ## Stuff
 
 ## Links
+
+### STM32 on Ubuntu
+
+https://www.iwasz.pl/electronics/stm32-on-ubuntu-linux-step-by-step/
+
 ### Youtube
 
 https://www.youtube.com/watch?v=pHyz2-wbDw4
