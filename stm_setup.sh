@@ -10,6 +10,9 @@ then
 	sudo apt install -y gcc-arm-none-eabi
 	sudo apt install -y stlink-tools
 	sudo apt install -y gdb
+	cd test 
+	make clean 
+	make
 else 
     echo "aborted"
 fi
