@@ -25,9 +25,11 @@ then
 	echo
 	read -p "Is the download complete and the zip file placed on stmcube/ directory (y/n) ?: " yesorno
 	if [ "$yesorno" = "y" ]; then
-		sudo unzip stmcube/*.zip
-		sudo chmod +x stmcube/SetupSTM32CubeMX-6.0.1.linux
-		./stmcube/SetupSTM32CubeMX-6.0.1.linux
+		cd stmcube
+		sudo unzip *.zip
+		sudo chmod +x *.linux
+		./*.linux
+		cd ..
 	fi
 	echo
 
