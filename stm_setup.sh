@@ -13,6 +13,8 @@ then
 	cd test 
 	make clean 
 	make
+	sudo chmod +x stmcube/SetupSTM32CubeMX-6.0.1.linux
+	./stmcube/SetupSTM32CubeMX-6.0.1.linux
 
 	echo "do you want to perform st-util --probe ?"
 	read -p 
