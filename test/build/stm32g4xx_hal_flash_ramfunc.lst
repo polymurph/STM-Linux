@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc2oUmif.s 			page 1
+ARM GAS  /tmp/ccojEAUG.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c **** 
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****     *** GNU Compiler ***
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****     --------------------
-ARM GAS  /tmp/cc2oUmif.s 			page 2
+ARM GAS  /tmp/ccojEAUG.s 			page 2
 
 
   32:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****     [..] RAM functions are defined using a specific toolchain attribute
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****   */
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c **** 
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c **** /**
-ARM GAS  /tmp/cc2oUmif.s 			page 3
+ARM GAS  /tmp/ccojEAUG.s 			page 3
 
 
   89:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****   * @brief  Enable the Power down in Run Mode
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
   64              		.cfi_startproc
   65              		@ args = 0, pretend = 0, frame = 0
   66              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc2oUmif.s 			page 4
+ARM GAS  /tmp/ccojEAUG.s 			page 4
 
 
   67              		@ link register save eliminated.
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
   99              		.cfi_startproc
  100              		@ args = 0, pretend = 0, frame = 0
  101              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc2oUmif.s 			page 5
+ARM GAS  /tmp/ccojEAUG.s 			page 5
 
 
  102              		@ link register save eliminated.
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
  150:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****       {
  151:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****         /* Disable Flash instruction cache */
  152:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****         __HAL_FLASH_INSTRUCTION_CACHE_DISABLE();
-ARM GAS  /tmp/cc2oUmif.s 			page 6
+ARM GAS  /tmp/ccojEAUG.s 			page 6
 
 
  139              		.loc 1 152 0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
  170:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****           ((reg & FLASH_WRP1AR_WRP1A_END) >> FLASH_WRP1AR_WRP1A_END_Pos))
  176              		.loc 1 170 0
  177 00c8 C3F30643 		ubfx	r3, r3, #16, #7
-ARM GAS  /tmp/cc2oUmif.s 			page 7
+ARM GAS  /tmp/ccojEAUG.s 			page 7
 
 
  178              	.LVL5:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
  214              		.loc 1 186 0
  215 0104 C3F30643 		ubfx	r3, r3, #16, #7
  216              	.LVL9:
-ARM GAS  /tmp/cc2oUmif.s 			page 8
+ARM GAS  /tmp/ccojEAUG.s 			page 8
 
 
  185:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****       if (((reg & FLASH_WRP2AR_WRP2A_STRT) >> FLASH_WRP2AR_WRP2A_STRT_Pos) <=
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
  203:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****       SET_BIT(FLASH->CR, FLASH_CR_OPTSTRT);
  253              		.loc 1 203 0
  254 0144 5369     		ldr	r3, [r2, #20]
-ARM GAS  /tmp/cc2oUmif.s 			page 9
+ARM GAS  /tmp/ccojEAUG.s 			page 9
 
 
  255 0146 43F40033 		orr	r3, r3, #131072
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
  224:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****   }
  225:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c **** 
  226:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****   /* Process Unlocked */
-ARM GAS  /tmp/cc2oUmif.s 			page 10
+ARM GAS  /tmp/ccojEAUG.s 			page 10
 
 
  227:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c ****   __HAL_UNLOCK(&pFlash);
@@ -580,20 +580,20 @@ ARM GAS  /tmp/cc2oUmif.s 			page 1
  321              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
  322              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
  323              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  /tmp/cc2oUmif.s 			page 11
+ARM GAS  /tmp/ccojEAUG.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32g4xx_hal_flash_ramfunc.c
-     /tmp/cc2oUmif.s:18     .RamFunc:0000000000000000 $t
-     /tmp/cc2oUmif.s:25     .RamFunc:0000000000000000 HAL_FLASHEx_EnableRunPowerDown
-     /tmp/cc2oUmif.s:48     .RamFunc:0000000000000018 $d
-     /tmp/cc2oUmif.s:54     .RamFunc:0000000000000024 $t
-     /tmp/cc2oUmif.s:61     .RamFunc:0000000000000024 HAL_FLASHEx_DisableRunPowerDown
-     /tmp/cc2oUmif.s:83     .RamFunc:000000000000003c $d
-     /tmp/cc2oUmif.s:89     .RamFunc:0000000000000048 $t
-     /tmp/cc2oUmif.s:96     .RamFunc:0000000000000048 HAL_FLASHEx_OB_DBankConfig
-     /tmp/cc2oUmif.s:306    .RamFunc:0000000000000190 $d
+     /tmp/ccojEAUG.s:18     .RamFunc:0000000000000000 $t
+     /tmp/ccojEAUG.s:25     .RamFunc:0000000000000000 HAL_FLASHEx_EnableRunPowerDown
+     /tmp/ccojEAUG.s:48     .RamFunc:0000000000000018 $d
+     /tmp/ccojEAUG.s:54     .RamFunc:0000000000000024 $t
+     /tmp/ccojEAUG.s:61     .RamFunc:0000000000000024 HAL_FLASHEx_DisableRunPowerDown
+     /tmp/ccojEAUG.s:83     .RamFunc:000000000000003c $d
+     /tmp/ccojEAUG.s:89     .RamFunc:0000000000000048 $t
+     /tmp/ccojEAUG.s:96     .RamFunc:0000000000000048 HAL_FLASHEx_OB_DBankConfig
+     /tmp/ccojEAUG.s:306    .RamFunc:0000000000000190 $d
 
 UNDEFINED SYMBOLS
 pFlash

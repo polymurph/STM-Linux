@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccQNjYPc.s 			page 1
+ARM GAS  /tmp/ccZ8rL1v.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
   29:Src/stm32g4xx_hal_msp.c **** /* USER CODE BEGIN TD */
   30:Src/stm32g4xx_hal_msp.c **** 
   31:Src/stm32g4xx_hal_msp.c **** /* USER CODE END TD */
-ARM GAS  /tmp/ccQNjYPc.s 			page 2
+ARM GAS  /tmp/ccZ8rL1v.s 			page 2
 
 
   32:Src/stm32g4xx_hal_msp.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
   43 000e 02F00102 		and	r2, r2, #1
   44 0012 0092     		str	r2, [sp]
   45 0014 009A     		ldr	r2, [sp]
-ARM GAS  /tmp/ccQNjYPc.s 			page 3
+ARM GAS  /tmp/ccZ8rL1v.s 			page 3
 
 
   46              	.LBE6:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
   40:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** 
   41:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** /* Private types -------------------------------------------------------------*/
   42:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** /* Private variables ---------------------------------------------------------*/
-ARM GAS  /tmp/ccQNjYPc.s 			page 4
+ARM GAS  /tmp/ccZ8rL1v.s 			page 4
 
 
   43:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
   97:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @}
   98:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   */
   99:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** 
-ARM GAS  /tmp/ccQNjYPc.s 			page 5
+ARM GAS  /tmp/ccZ8rL1v.s 			page 5
 
 
  100:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** /** @defgroup PWR_LL_EC_REGU_VOLTAGE REGU VOLTAGE
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
  154:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** /** @defgroup PWR_LL_EC_WAKEUP WAKEUP
  155:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @{
  156:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   */
-ARM GAS  /tmp/ccQNjYPc.s 			page 6
+ARM GAS  /tmp/ccZ8rL1v.s 			page 6
 
 
  157:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** #define LL_PWR_WAKEUP_PIN1                 (PWR_CR3_EWUP1)
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
  211:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** 
  212:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** /**
  213:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @}
-ARM GAS  /tmp/ccQNjYPc.s 			page 7
+ARM GAS  /tmp/ccZ8rL1v.s 			page 7
 
 
  214:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   */
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
  268:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @brief  Switch the regulator from low-power mode to main mode
  269:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @rmtoll CR1          LPR           LL_PWR_DisableLowPowerRunMode
  270:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @retval None
-ARM GAS  /tmp/ccQNjYPc.s 			page 8
+ARM GAS  /tmp/ccZ8rL1v.s 			page 8
 
 
  271:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   */
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
  325:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @brief  Get the main internal regulator output voltage
  326:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @rmtoll CR1          VOS           LL_PWR_GetRegulVoltageScaling
  327:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @retval Returned value can be one of the following values:
-ARM GAS  /tmp/ccQNjYPc.s 			page 9
+ARM GAS  /tmp/ccZ8rL1v.s 			page 9
 
 
  328:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   *         @arg @ref LL_PWR_REGU_VOLTAGE_SCALE1
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
  382:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @brief  Disable access to the backup domain
  383:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @rmtoll CR1          DBP           LL_PWR_DisableBkUpAccess
  384:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @retval None
-ARM GAS  /tmp/ccQNjYPc.s 			page 10
+ARM GAS  /tmp/ccZ8rL1v.s 			page 10
 
 
  385:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   */
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
  439:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   * @retval None
  440:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   */
  441:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** __STATIC_INLINE void LL_PWR_EnableUSBStandByModePD(void)
-ARM GAS  /tmp/ccQNjYPc.s 			page 11
+ARM GAS  /tmp/ccZ8rL1v.s 			page 11
 
 
  442:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** {
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
  496:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   */
  497:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** __STATIC_INLINE void LL_PWR_DisableUCPDDeadBattery(void)
  498:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h **** {
-ARM GAS  /tmp/ccQNjYPc.s 			page 12
+ARM GAS  /tmp/ccZ8rL1v.s 			page 12
 
 
  499:Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_pwr.h ****   SET_BIT(PWR->CR3, PWR_CR3_UCPD_DBDIS);
@@ -703,13 +703,13 @@ ARM GAS  /tmp/ccQNjYPc.s 			page 1
   88              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
   89              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
   90              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  /tmp/ccQNjYPc.s 			page 13
+ARM GAS  /tmp/ccZ8rL1v.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32g4xx_hal_msp.c
-     /tmp/ccQNjYPc.s:18     .text.HAL_MspInit:0000000000000000 $t
-     /tmp/ccQNjYPc.s:25     .text.HAL_MspInit:0000000000000000 HAL_MspInit
-     /tmp/ccQNjYPc.s:76     .text.HAL_MspInit:0000000000000038 $d
+     /tmp/ccZ8rL1v.s:18     .text.HAL_MspInit:0000000000000000 $t
+     /tmp/ccZ8rL1v.s:25     .text.HAL_MspInit:0000000000000000 HAL_MspInit
+     /tmp/ccZ8rL1v.s:76     .text.HAL_MspInit:0000000000000038 $d
 
 NO UNDEFINED SYMBOLS

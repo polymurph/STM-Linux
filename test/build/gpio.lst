@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc9UIUkh.s 			page 1
+ARM GAS  /tmp/ccxxPgCB.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc9UIUkh.s 			page 1
   29:Src/gpio.c    **** /* USER CODE BEGIN 1 */
   30:Src/gpio.c    **** 
   31:Src/gpio.c    **** /* USER CODE END 1 */
-ARM GAS  /tmp/cc9UIUkh.s 			page 2
+ARM GAS  /tmp/ccxxPgCB.s 			page 2
 
 
   32:Src/gpio.c    **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc9UIUkh.s 			page 1
   70 0032 DA6C     		ldr	r2, [r3, #76]
   71 0034 42F04002 		orr	r2, r2, #64
   72 0038 DA64     		str	r2, [r3, #76]
-ARM GAS  /tmp/cc9UIUkh.s 			page 3
+ARM GAS  /tmp/ccxxPgCB.s 			page 3
 
 
   73 003a DA6C     		ldr	r2, [r3, #76]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc9UIUkh.s 			page 1
   57:Src/gpio.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
   58:Src/gpio.c    ****   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
  114              		.loc 1 58 0
-ARM GAS  /tmp/cc9UIUkh.s 			page 4
+ARM GAS  /tmp/ccxxPgCB.s 			page 4
 
 
  115 0084 07A9     		add	r1, sp, #28
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc9UIUkh.s 			page 1
  146              		.loc 1 81 0
  147 00b0 0994     		str	r4, [sp, #36]
   82:Src/gpio.c    ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-ARM GAS  /tmp/cc9UIUkh.s 			page 5
+ARM GAS  /tmp/ccxxPgCB.s 			page 5
 
 
  148              		.loc 1 82 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc9UIUkh.s 			page 1
  182              	.L4:
  183 00de 00BF     		.align	2
  184              	.L3:
-ARM GAS  /tmp/cc9UIUkh.s 			page 6
+ARM GAS  /tmp/ccxxPgCB.s 			page 6
 
 
  185 00e0 00100240 		.word	1073876992
@@ -320,14 +320,14 @@ ARM GAS  /tmp/cc9UIUkh.s 			page 1
  202              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
  203              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
  204              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  /tmp/cc9UIUkh.s 			page 7
+ARM GAS  /tmp/ccxxPgCB.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gpio.c
-     /tmp/cc9UIUkh.s:18     .text.MX_GPIO_Init:0000000000000000 $t
-     /tmp/cc9UIUkh.s:25     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
-     /tmp/cc9UIUkh.s:185    .text.MX_GPIO_Init:00000000000000e0 $d
+     /tmp/ccxxPgCB.s:18     .text.MX_GPIO_Init:0000000000000000 $t
+     /tmp/ccxxPgCB.s:25     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
+     /tmp/ccxxPgCB.s:185    .text.MX_GPIO_Init:00000000000000e0 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_Init
