@@ -17,9 +17,9 @@ then
 	echo "do you want to perform st-util --probe ?"
 	read -p 
 
-	read -p "do you want to perform st-util --probe (y/n) ?: " yesorno
+	read -p "do you want to perform st-info --probe (y/n) ?: " yesorno
 	if [ "$yesorno" = "y" ]; then
-		st-util --probe
+		st-info --probe
 	fi
 else 
     echo "aborted"
