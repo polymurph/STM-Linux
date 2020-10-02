@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccHkACXq.s 			page 1
+ARM GAS  /tmp/cc0Y26Im.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   * @attention
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   *
   32:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   * <h2><center>&copy; Copyright (c) 2019 STMicroelectronics.
-ARM GAS  /tmp/ccHkACXq.s 			page 2
+ARM GAS  /tmp/cc0Y26Im.s 			page 2
 
 
   33:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   * All rights reserved.</center></h2>
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   */
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
   89:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** /** @defgroup UARTEx_Exported_Functions_Group1 Initialization and de-initialization functions
-ARM GAS  /tmp/ccHkACXq.s 			page 3
+ARM GAS  /tmp/cc0Y26Im.s 			page 3
 
 
   90:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   * @brief    Extended Initialization and Configuration Functions
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  144:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   * @{
  145:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   */
  146:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
-ARM GAS  /tmp/ccHkACXq.s 			page 4
+ARM GAS  /tmp/cc0Y26Im.s 			page 4
 
 
  147:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** /**
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  201:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****     /* Init the low level hardware */
  202:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****     huart->MspInitCallback(huart);
  203:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** #else
-ARM GAS  /tmp/ccHkACXq.s 			page 5
+ARM GAS  /tmp/cc0Y26Im.s 			page 5
 
 
  204:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****     /* Init the low level hardware : GPIO, CLOCK, CORTEX */
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  258:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  259:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****     (#) TX/RX Fifos Callbacks:
  260:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****         (+) HAL_UARTEx_RxFifoFullCallback()
-ARM GAS  /tmp/ccHkACXq.s 			page 6
+ARM GAS  /tmp/cc0Y26Im.s 			page 6
 
 
  261:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****         (+) HAL_UARTEx_TxFifoEmptyCallback()
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  315:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  316:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** /** @defgroup UARTEx_Exported_Functions_Group3 Peripheral Control functions
  317:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   * @brief    Extended Peripheral Control functions
-ARM GAS  /tmp/ccHkACXq.s 			page 7
+ARM GAS  /tmp/cc0Y26Im.s 			page 7
 
 
  318:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   *
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  372:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   __HAL_UART_ENABLE(huart);
  373:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  374:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   /* TEACK and/or REACK to check before moving huart->gState to Ready */
-ARM GAS  /tmp/ccHkACXq.s 			page 8
+ARM GAS  /tmp/cc0Y26Im.s 			page 8
 
 
  375:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   return (UART_CheckIdleState(huart));
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  429:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****     /* Initialize the UART State */
  430:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****     huart->gState = HAL_UART_STATE_READY;
  431:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   }
-ARM GAS  /tmp/ccHkACXq.s 			page 9
+ARM GAS  /tmp/cc0Y26Im.s 			page 9
 
 
  432:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   /* Check parameters */
  488:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   assert_param(IS_UART_FIFO_INSTANCE(huart->Instance));
-ARM GAS  /tmp/ccHkACXq.s 			page 10
+ARM GAS  /tmp/cc0Y26Im.s 			page 10
 
 
  489:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  543:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   CLEAR_BIT(tmpcr1, USART_CR1_FIFOEN);
  544:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   huart->FifoMode = UART_FIFOMODE_DISABLE;
  545:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
-ARM GAS  /tmp/ccHkACXq.s 			page 11
+ARM GAS  /tmp/cc0Y26Im.s 			page 11
 
 
  546:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   /* Restore UART configuration */
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  600:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   /* Process Unlocked */
  601:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   __HAL_UNLOCK(huart);
  602:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
-ARM GAS  /tmp/ccHkACXq.s 			page 12
+ARM GAS  /tmp/cc0Y26Im.s 			page 12
 
 
  603:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   return HAL_OK;
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  657:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   */
  658:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  659:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** /**
-ARM GAS  /tmp/ccHkACXq.s 			page 13
+ARM GAS  /tmp/cc0Y26Im.s 			page 13
 
 
  660:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   * @}
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
   43 0008 93E80300 		ldm	r3, {r0, r1}
   44              	.LVL1:
   45 000c 04AC     		add	r4, sp, #16
-ARM GAS  /tmp/ccHkACXq.s 			page 14
+ARM GAS  /tmp/cc0Y26Im.s 			page 14
 
 
   46 000e 04E90300 		stmdb	r4, {r0, r1}
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
   82 004e 13F8103C 		ldrb	r3, [r3, #-16]	@ zero_extendqisi2
  713:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****     huart->NbRxDataToProcess = ((uint16_t)rx_fifo_depth * numerator[rx_fifo_threshold]) /
   83              		.loc 1 713 0
-ARM GAS  /tmp/ccHkACXq.s 			page 15
+ARM GAS  /tmp/cc0Y26Im.s 			page 15
 
 
   84 0052 91FBF3F3 		sdiv	r3, r1, r3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  135 0002 83B0     		sub	sp, sp, #12
  136              	.LCFI6:
  137              		.cfi_def_cfa_offset 24
-ARM GAS  /tmp/ccHkACXq.s 			page 16
+ARM GAS  /tmp/cc0Y26Im.s 			page 16
 
 
  138 0004 0546     		mov	r5, r0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  187              		.fpu fpv4-sp-d16
  189              	HAL_RS485Ex_Init:
  190              	.LFB132:
-ARM GAS  /tmp/ccHkACXq.s 			page 17
+ARM GAS  /tmp/cc0Y26Im.s 			page 17
 
 
  168:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   uint32_t temp;
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  236              		.loc 1 177 0 discriminator 5
  237 0036 02F54052 		add	r2, r2, #12288
  238 003a 9342     		cmp	r3, r2
-ARM GAS  /tmp/ccHkACXq.s 			page 18
+ARM GAS  /tmp/cc0Y26Im.s 			page 18
 
 
  239 003c 03D0     		beq	.L15
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  283 007a 002B     		cmp	r3, #0
  284 007c 33D1     		bne	.L30
  285              	.L20:
-ARM GAS  /tmp/ccHkACXq.s 			page 19
+ARM GAS  /tmp/cc0Y26Im.s 			page 19
 
 
  226:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  183:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  332              		.loc 1 183 0 discriminator 1
  333 00c6 B721     		movs	r1, #183
-ARM GAS  /tmp/ccHkACXq.s 			page 20
+ARM GAS  /tmp/cc0Y26Im.s 			page 20
 
 
  334 00c8 0B48     		ldr	r0, .L31+4
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  383              		.align	1
  384              		.weak	HAL_UARTEx_WakeupCallback
  385              		.syntax unified
-ARM GAS  /tmp/ccHkACXq.s 			page 21
+ARM GAS  /tmp/cc0Y26Im.s 			page 21
 
 
  386              		.thumb
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  310:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  440              		.loc 1 310 0
  441 0000 7047     		bx	lr
-ARM GAS  /tmp/ccHkACXq.s 			page 22
+ARM GAS  /tmp/cc0Y26Im.s 			page 22
 
 
  442              		.cfi_endproc
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  490 0022 23F01003 		bic	r3, r3, #16
  491 0026 2B43     		orrs	r3, r3, r5
  492 0028 5360     		str	r3, [r2, #4]
-ARM GAS  /tmp/ccHkACXq.s 			page 23
+ARM GAS  /tmp/cc0Y26Im.s 			page 23
 
 
  372:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  543              	.LFB137:
  391:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   HAL_StatusTypeDef status = HAL_OK;
  544              		.loc 1 391 0
-ARM GAS  /tmp/ccHkACXq.s 			page 24
+ARM GAS  /tmp/cc0Y26Im.s 			page 24
 
 
  545              		.cfi_startproc
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  592              	.LVL47:
  593              	.L48:
  398:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
-ARM GAS  /tmp/ccHkACXq.s 			page 25
+ARM GAS  /tmp/cc0Y26Im.s 			page 25
 
 
  594              		.loc 1 398 0 is_stmt 1
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  637 0090 6FF07E43 		mvn	r3, #-33554432
  638 0094 0093     		str	r3, [sp]
  639 0096 0346     		mov	r3, r0
-ARM GAS  /tmp/ccHkACXq.s 			page 26
+ARM GAS  /tmp/cc0Y26Im.s 			page 26
 
 
  640 0098 0022     		movs	r2, #0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  688              		.cfi_restore_state
  401:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  689              		.loc 1 401 0
-ARM GAS  /tmp/ccHkACXq.s 			page 27
+ARM GAS  /tmp/cc0Y26Im.s 			page 27
 
 
  690 00d8 0223     		movs	r3, #2
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  739              	.LVL59:
  457:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  740              		.loc 1 457 0
-ARM GAS  /tmp/ccHkACXq.s 			page 28
+ARM GAS  /tmp/cc0Y26Im.s 			page 28
 
 
  741 0024 7047     		bx	lr
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  790              		.section	.text.HAL_UARTEx_EnableFifoMode,"ax",%progbits
  791              		.align	1
  792              		.global	HAL_UARTEx_EnableFifoMode
-ARM GAS  /tmp/ccHkACXq.s 			page 29
+ARM GAS  /tmp/cc0Y26Im.s 			page 29
 
 
  793              		.syntax unified
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  840 003a FFF7FEFF 		bl	assert_failed
  841              	.LVL66:
  842              	.L67:
-ARM GAS  /tmp/ccHkACXq.s 			page 30
+ARM GAS  /tmp/cc0Y26Im.s 			page 30
 
 
  491:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  491:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  885              		.loc 1 491 0
  886 0080 0220     		movs	r0, #2
-ARM GAS  /tmp/ccHkACXq.s 			page 31
+ARM GAS  /tmp/cc0Y26Im.s 			page 31
 
 
  887 0082 FCE7     		b	.L68
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  937 002a 08D0     		beq	.L74
  529:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  938              		.loc 1 529 0 discriminator 5
-ARM GAS  /tmp/ccHkACXq.s 			page 32
+ARM GAS  /tmp/cc0Y26Im.s 			page 32
 
 
  939 002c 02F54052 		add	r2, r2, #12288
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  982 0070 84F87C00 		strb	r0, [r4, #124]
  983              	.L75:
  555:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
-ARM GAS  /tmp/ccHkACXq.s 			page 33
+ARM GAS  /tmp/cc0Y26Im.s 			page 33
 
 
  984              		.loc 1 555 0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  1035 001c 10D0     		beq	.L81
  575:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   assert_param(IS_UART_TXFIFO_THRESHOLD(Threshold));
  1036              		.loc 1 575 0 discriminator 3
-ARM GAS  /tmp/ccHkACXq.s 			page 34
+ARM GAS  /tmp/cc0Y26Im.s 			page 34
 
 
  1037 001e 02F58062 		add	r2, r2, #1024
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  1080 006a 84F87C30 		strb	r3, [r4, #124]
  581:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  1081              		.loc 1 581 0 is_stmt 1 discriminator 2
-ARM GAS  /tmp/ccHkACXq.s 			page 35
+ARM GAS  /tmp/cc0Y26Im.s 			page 35
 
 
  1082 006e 2423     		movs	r3, #36
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  1126 00b2 F6E7     		b	.L83
  1127              	.L88:
  1128              		.align	2
-ARM GAS  /tmp/ccHkACXq.s 			page 36
+ARM GAS  /tmp/cc0Y26Im.s 			page 36
 
 
  1129              	.L87:
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  1179 002c 08D0     		beq	.L90
  624:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c ****   assert_param(IS_UART_RXFIFO_THRESHOLD(Threshold));
  1180              		.loc 1 624 0 discriminator 5
-ARM GAS  /tmp/ccHkACXq.s 			page 37
+ARM GAS  /tmp/cc0Y26Im.s 			page 37
 
 
  1181 002e 02F54052 		add	r2, r2, #12288
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  636:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c **** 
  1224              		.loc 1 636 0 discriminator 2
  1225 0078 1A68     		ldr	r2, [r3]
-ARM GAS  /tmp/ccHkACXq.s 			page 38
+ARM GAS  /tmp/cc0Y26Im.s 			page 38
 
 
  1226 007a 22F00102 		bic	r2, r2, #1
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  1273              		.set	.LANCHOR0,. + 0
  1274              	.LC0:
  1275 0000 01       		.byte	1
-ARM GAS  /tmp/ccHkACXq.s 			page 39
+ARM GAS  /tmp/cc0Y26Im.s 			page 39
 
 
  1276 0001 01       		.byte	1
@@ -2322,50 +2322,50 @@ ARM GAS  /tmp/ccHkACXq.s 			page 1
  1309              		.file 12 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart_ex.h"
  1310              		.file 13 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
  1311              		.file 14 "Core/Inc/stm32g4xx_hal_conf.h"
-ARM GAS  /tmp/ccHkACXq.s 			page 40
+ARM GAS  /tmp/cc0Y26Im.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32g4xx_hal_uart_ex.c
-     /tmp/ccHkACXq.s:18     .text.UARTEx_SetNbDataToProcess:0000000000000000 $t
-     /tmp/ccHkACXq.s:24     .text.UARTEx_SetNbDataToProcess:0000000000000000 UARTEx_SetNbDataToProcess
-     /tmp/ccHkACXq.s:111    .text.UARTEx_SetNbDataToProcess:0000000000000070 $d
-     /tmp/ccHkACXq.s:116    .text.UARTEx_Wakeup_AddressConfig:0000000000000000 $t
-     /tmp/ccHkACXq.s:122    .text.UARTEx_Wakeup_AddressConfig:0000000000000000 UARTEx_Wakeup_AddressConfig
-     /tmp/ccHkACXq.s:177    .text.UARTEx_Wakeup_AddressConfig:0000000000000044 $d
-     /tmp/ccHkACXq.s:182    .text.HAL_RS485Ex_Init:0000000000000000 $t
-     /tmp/ccHkACXq.s:189    .text.HAL_RS485Ex_Init:0000000000000000 HAL_RS485Ex_Init
-     /tmp/ccHkACXq.s:377    .text.HAL_RS485Ex_Init:00000000000000f4 $d
-     /tmp/ccHkACXq.s:383    .text.HAL_UARTEx_WakeupCallback:0000000000000000 $t
-     /tmp/ccHkACXq.s:390    .text.HAL_UARTEx_WakeupCallback:0000000000000000 HAL_UARTEx_WakeupCallback
-     /tmp/ccHkACXq.s:404    .text.HAL_UARTEx_RxFifoFullCallback:0000000000000000 $t
-     /tmp/ccHkACXq.s:411    .text.HAL_UARTEx_RxFifoFullCallback:0000000000000000 HAL_UARTEx_RxFifoFullCallback
-     /tmp/ccHkACXq.s:425    .text.HAL_UARTEx_TxFifoEmptyCallback:0000000000000000 $t
-     /tmp/ccHkACXq.s:432    .text.HAL_UARTEx_TxFifoEmptyCallback:0000000000000000 HAL_UARTEx_TxFifoEmptyCallback
-     /tmp/ccHkACXq.s:446    .text.HAL_MultiProcessorEx_AddressLength_Set:0000000000000000 $t
-     /tmp/ccHkACXq.s:453    .text.HAL_MultiProcessorEx_AddressLength_Set:0000000000000000 HAL_MultiProcessorEx_AddressLength_Set
-     /tmp/ccHkACXq.s:530    .text.HAL_MultiProcessorEx_AddressLength_Set:000000000000004c $d
-     /tmp/ccHkACXq.s:535    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:0000000000000000 $t
-     /tmp/ccHkACXq.s:542    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:0000000000000000 HAL_UARTEx_StopModeWakeUpSourceConfig
-     /tmp/ccHkACXq.s:695    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000000000dc $d
-     /tmp/ccHkACXq.s:701    .text.HAL_UARTEx_EnableStopMode:0000000000000000 $t
-     /tmp/ccHkACXq.s:708    .text.HAL_UARTEx_EnableStopMode:0000000000000000 HAL_UARTEx_EnableStopMode
-     /tmp/ccHkACXq.s:746    .text.HAL_UARTEx_DisableStopMode:0000000000000000 $t
-     /tmp/ccHkACXq.s:753    .text.HAL_UARTEx_DisableStopMode:0000000000000000 HAL_UARTEx_DisableStopMode
-     /tmp/ccHkACXq.s:791    .text.HAL_UARTEx_EnableFifoMode:0000000000000000 $t
-     /tmp/ccHkACXq.s:798    .text.HAL_UARTEx_EnableFifoMode:0000000000000000 HAL_UARTEx_EnableFifoMode
-     /tmp/ccHkACXq.s:891    .text.HAL_UARTEx_EnableFifoMode:0000000000000084 $d
-     /tmp/ccHkACXq.s:897    .text.HAL_UARTEx_DisableFifoMode:0000000000000000 $t
-     /tmp/ccHkACXq.s:904    .text.HAL_UARTEx_DisableFifoMode:0000000000000000 HAL_UARTEx_DisableFifoMode
-     /tmp/ccHkACXq.s:994    .text.HAL_UARTEx_DisableFifoMode:000000000000007c $d
-     /tmp/ccHkACXq.s:1000   .text.HAL_UARTEx_SetTxFifoThreshold:0000000000000000 $t
-     /tmp/ccHkACXq.s:1007   .text.HAL_UARTEx_SetTxFifoThreshold:0000000000000000 HAL_UARTEx_SetTxFifoThreshold
-     /tmp/ccHkACXq.s:1130   .text.HAL_UARTEx_SetTxFifoThreshold:00000000000000b4 $d
-     /tmp/ccHkACXq.s:1136   .text.HAL_UARTEx_SetRxFifoThreshold:0000000000000000 $t
-     /tmp/ccHkACXq.s:1143   .text.HAL_UARTEx_SetRxFifoThreshold:0000000000000000 HAL_UARTEx_SetRxFifoThreshold
-     /tmp/ccHkACXq.s:1266   .text.HAL_UARTEx_SetRxFifoThreshold:00000000000000b4 $d
-     /tmp/ccHkACXq.s:1272   .rodata:0000000000000000 $d
-     /tmp/ccHkACXq.s:1293   .rodata.UARTEx_Wakeup_AddressConfig.str1.4:0000000000000000 $d
+     /tmp/cc0Y26Im.s:18     .text.UARTEx_SetNbDataToProcess:0000000000000000 $t
+     /tmp/cc0Y26Im.s:24     .text.UARTEx_SetNbDataToProcess:0000000000000000 UARTEx_SetNbDataToProcess
+     /tmp/cc0Y26Im.s:111    .text.UARTEx_SetNbDataToProcess:0000000000000070 $d
+     /tmp/cc0Y26Im.s:116    .text.UARTEx_Wakeup_AddressConfig:0000000000000000 $t
+     /tmp/cc0Y26Im.s:122    .text.UARTEx_Wakeup_AddressConfig:0000000000000000 UARTEx_Wakeup_AddressConfig
+     /tmp/cc0Y26Im.s:177    .text.UARTEx_Wakeup_AddressConfig:0000000000000044 $d
+     /tmp/cc0Y26Im.s:182    .text.HAL_RS485Ex_Init:0000000000000000 $t
+     /tmp/cc0Y26Im.s:189    .text.HAL_RS485Ex_Init:0000000000000000 HAL_RS485Ex_Init
+     /tmp/cc0Y26Im.s:377    .text.HAL_RS485Ex_Init:00000000000000f4 $d
+     /tmp/cc0Y26Im.s:383    .text.HAL_UARTEx_WakeupCallback:0000000000000000 $t
+     /tmp/cc0Y26Im.s:390    .text.HAL_UARTEx_WakeupCallback:0000000000000000 HAL_UARTEx_WakeupCallback
+     /tmp/cc0Y26Im.s:404    .text.HAL_UARTEx_RxFifoFullCallback:0000000000000000 $t
+     /tmp/cc0Y26Im.s:411    .text.HAL_UARTEx_RxFifoFullCallback:0000000000000000 HAL_UARTEx_RxFifoFullCallback
+     /tmp/cc0Y26Im.s:425    .text.HAL_UARTEx_TxFifoEmptyCallback:0000000000000000 $t
+     /tmp/cc0Y26Im.s:432    .text.HAL_UARTEx_TxFifoEmptyCallback:0000000000000000 HAL_UARTEx_TxFifoEmptyCallback
+     /tmp/cc0Y26Im.s:446    .text.HAL_MultiProcessorEx_AddressLength_Set:0000000000000000 $t
+     /tmp/cc0Y26Im.s:453    .text.HAL_MultiProcessorEx_AddressLength_Set:0000000000000000 HAL_MultiProcessorEx_AddressLength_Set
+     /tmp/cc0Y26Im.s:530    .text.HAL_MultiProcessorEx_AddressLength_Set:000000000000004c $d
+     /tmp/cc0Y26Im.s:535    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:0000000000000000 $t
+     /tmp/cc0Y26Im.s:542    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:0000000000000000 HAL_UARTEx_StopModeWakeUpSourceConfig
+     /tmp/cc0Y26Im.s:695    .text.HAL_UARTEx_StopModeWakeUpSourceConfig:00000000000000dc $d
+     /tmp/cc0Y26Im.s:701    .text.HAL_UARTEx_EnableStopMode:0000000000000000 $t
+     /tmp/cc0Y26Im.s:708    .text.HAL_UARTEx_EnableStopMode:0000000000000000 HAL_UARTEx_EnableStopMode
+     /tmp/cc0Y26Im.s:746    .text.HAL_UARTEx_DisableStopMode:0000000000000000 $t
+     /tmp/cc0Y26Im.s:753    .text.HAL_UARTEx_DisableStopMode:0000000000000000 HAL_UARTEx_DisableStopMode
+     /tmp/cc0Y26Im.s:791    .text.HAL_UARTEx_EnableFifoMode:0000000000000000 $t
+     /tmp/cc0Y26Im.s:798    .text.HAL_UARTEx_EnableFifoMode:0000000000000000 HAL_UARTEx_EnableFifoMode
+     /tmp/cc0Y26Im.s:891    .text.HAL_UARTEx_EnableFifoMode:0000000000000084 $d
+     /tmp/cc0Y26Im.s:897    .text.HAL_UARTEx_DisableFifoMode:0000000000000000 $t
+     /tmp/cc0Y26Im.s:904    .text.HAL_UARTEx_DisableFifoMode:0000000000000000 HAL_UARTEx_DisableFifoMode
+     /tmp/cc0Y26Im.s:994    .text.HAL_UARTEx_DisableFifoMode:000000000000007c $d
+     /tmp/cc0Y26Im.s:1000   .text.HAL_UARTEx_SetTxFifoThreshold:0000000000000000 $t
+     /tmp/cc0Y26Im.s:1007   .text.HAL_UARTEx_SetTxFifoThreshold:0000000000000000 HAL_UARTEx_SetTxFifoThreshold
+     /tmp/cc0Y26Im.s:1130   .text.HAL_UARTEx_SetTxFifoThreshold:00000000000000b4 $d
+     /tmp/cc0Y26Im.s:1136   .text.HAL_UARTEx_SetRxFifoThreshold:0000000000000000 $t
+     /tmp/cc0Y26Im.s:1143   .text.HAL_UARTEx_SetRxFifoThreshold:0000000000000000 HAL_UARTEx_SetRxFifoThreshold
+     /tmp/cc0Y26Im.s:1266   .text.HAL_UARTEx_SetRxFifoThreshold:00000000000000b4 $d
+     /tmp/cc0Y26Im.s:1272   .rodata:0000000000000000 $d
+     /tmp/cc0Y26Im.s:1293   .rodata.UARTEx_Wakeup_AddressConfig.str1.4:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 assert_failed

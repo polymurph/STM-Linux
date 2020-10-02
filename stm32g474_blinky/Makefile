@@ -36,6 +36,7 @@ BUILD_DIR = build
 # source
 ######################################
 # CPP sources
+CPP_SOURCES = Core/Src/Cpp/*.cpp
 # C sources
 C_SOURCES =  \
 Core/Src/main.c \
