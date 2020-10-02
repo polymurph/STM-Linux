@@ -1,0 +1,6 @@
+21:16:32 **** Incremental Build of configuration Default for project stm32g474_blinky_test ****
+make all 
+make: Nothing to be done for 'all'.
+
+21:16:32 Build Finished (took 852ms)
+
