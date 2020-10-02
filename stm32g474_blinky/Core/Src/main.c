@@ -99,7 +99,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	
-	app_main();
+	//app_main();
 	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
 	HAL_Delay(300);
 	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);

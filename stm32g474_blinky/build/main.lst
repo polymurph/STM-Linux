@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cczrOr4i.s 			page 1
+ARM GAS  /tmp/ccDnREcx.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cczrOr4i.s 			page 1
   29:Core/Src/main.c **** 
   30:Core/Src/main.c **** /* Private typedef -----------------------------------------------------------*/
   31:Core/Src/main.c **** /* USER CODE BEGIN PTD */
-ARM GAS  /tmp/cczrOr4i.s 			page 2
+ARM GAS  /tmp/ccDnREcx.s 			page 2
 
 
   32:Core/Src/main.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cczrOr4i.s 			page 1
   86:Core/Src/main.c **** 
   87:Core/Src/main.c ****   /* Initialize all configured peripherals */
   88:Core/Src/main.c ****   MX_GPIO_Init();
-ARM GAS  /tmp/cczrOr4i.s 			page 3
+ARM GAS  /tmp/ccDnREcx.s 			page 3
 
 
   89:Core/Src/main.c ****   MX_LPUART1_UART_Init();
@@ -134,7 +134,7 @@ ARM GAS  /tmp/cczrOr4i.s 			page 1
   99:Core/Src/main.c **** 
  100:Core/Src/main.c ****     /* USER CODE BEGIN 3 */
  101:Core/Src/main.c **** 	
- 102:Core/Src/main.c **** 	app_main();
+ 102:Core/Src/main.c **** 	//app_main();
  103:Core/Src/main.c **** 	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
  104:Core/Src/main.c **** 	HAL_Delay(300);
  105:Core/Src/main.c **** 	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cczrOr4i.s 			page 1
   52 0016 1894     		str	r4, [sp, #96]
   53 0018 1994     		str	r4, [sp, #100]
  119:Core/Src/main.c ****   RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
-ARM GAS  /tmp/cczrOr4i.s 			page 4
+ARM GAS  /tmp/ccDnREcx.s 			page 4
 
 
   54              		.loc 1 119 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cczrOr4i.s 			page 1
   90 004a 1AA8     		add	r0, sp, #104
   91 004c FFF7FEFF 		bl	HAL_RCC_OscConfig
   92              	.LVL3:
-ARM GAS  /tmp/cczrOr4i.s 			page 5
+ARM GAS  /tmp/ccDnREcx.s 			page 5
 
 
  138:Core/Src/main.c ****   {
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cczrOr4i.s 			page 1
  122              		.cfi_def_cfa_offset 12
  123              		@ sp needed
  124 0074 30BD     		pop	{r4, r5, pc}
-ARM GAS  /tmp/cczrOr4i.s 			page 6
+ARM GAS  /tmp/ccDnREcx.s 			page 6
 
 
  125              		.cfi_endproc
@@ -340,49 +340,45 @@ ARM GAS  /tmp/cczrOr4i.s 			page 1
  158 000e FFF7FEFF 		bl	MX_LPUART1_UART_Init
  159              	.LVL9:
  160              	.L4:
- 102:Core/Src/main.c **** 	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
- 161              		.loc 1 102 0 discriminator 1
- 162 0012 FFF7FEFF 		bl	app_main
- 163              	.LVL10:
  103:Core/Src/main.c **** 	HAL_Delay(300);
- 164              		.loc 1 103 0 discriminator 1
- 165 0016 0122     		movs	r2, #1
- 166 0018 2021     		movs	r1, #32
- 167 001a 4FF09040 		mov	r0, #1207959552
- 168 001e FFF7FEFF 		bl	HAL_GPIO_WritePin
- 169              	.LVL11:
+ 161              		.loc 1 103 0 discriminator 1
+ 162 0012 0122     		movs	r2, #1
+ 163 0014 2021     		movs	r1, #32
+ 164 0016 4FF09040 		mov	r0, #1207959552
+ 165 001a FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 166              	.LVL10:
  104:Core/Src/main.c **** 	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
- 170              		.loc 1 104 0 discriminator 1
- 171 0022 4FF49670 		mov	r0, #300
- 172 0026 FFF7FEFF 		bl	HAL_Delay
- 173              	.LVL12:
+ 167              		.loc 1 104 0 discriminator 1
+ 168 001e 4FF49670 		mov	r0, #300
+ 169 0022 FFF7FEFF 		bl	HAL_Delay
+ 170              	.LVL11:
  105:Core/Src/main.c **** 	HAL_Delay(300);
- 174              		.loc 1 105 0 discriminator 1
-ARM GAS  /tmp/cczrOr4i.s 			page 7
+ 171              		.loc 1 105 0 discriminator 1
+ 172 0026 0022     		movs	r2, #0
+ 173 0028 2021     		movs	r1, #32
+ 174 002a 4FF09040 		mov	r0, #1207959552
+ 175 002e FFF7FEFF 		bl	HAL_GPIO_WritePin
+ARM GAS  /tmp/ccDnREcx.s 			page 7
 
 
- 175 002a 0022     		movs	r2, #0
- 176 002c 2021     		movs	r1, #32
- 177 002e 4FF09040 		mov	r0, #1207959552
- 178 0032 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 179              	.LVL13:
+ 176              	.LVL12:
  106:Core/Src/main.c ****   }
- 180              		.loc 1 106 0 discriminator 1
- 181 0036 4FF49670 		mov	r0, #300
- 182 003a FFF7FEFF 		bl	HAL_Delay
- 183              	.LVL14:
- 184 003e E8E7     		b	.L4
- 185              		.cfi_endproc
- 186              	.LFE132:
- 188              		.section	.text.Error_Handler,"ax",%progbits
- 189              		.align	1
- 190              		.global	Error_Handler
- 191              		.syntax unified
- 192              		.thumb
- 193              		.thumb_func
- 194              		.fpu fpv4-sp-d16
- 196              	Error_Handler:
- 197              	.LFB134:
+ 177              		.loc 1 106 0 discriminator 1
+ 178 0032 4FF49670 		mov	r0, #300
+ 179 0036 FFF7FEFF 		bl	HAL_Delay
+ 180              	.LVL13:
+ 181 003a EAE7     		b	.L4
+ 182              		.cfi_endproc
+ 183              	.LFE132:
+ 185              		.section	.text.Error_Handler,"ax",%progbits
+ 186              		.align	1
+ 187              		.global	Error_Handler
+ 188              		.syntax unified
+ 189              		.thumb
+ 190              		.thumb_func
+ 191              		.fpu fpv4-sp-d16
+ 193              	Error_Handler:
+ 194              	.LFB134:
  163:Core/Src/main.c **** 
  164:Core/Src/main.c **** /* USER CODE BEGIN 4 */
  165:Core/Src/main.c **** 
@@ -394,91 +390,90 @@ ARM GAS  /tmp/cczrOr4i.s 			page 1
  171:Core/Src/main.c ****   */
  172:Core/Src/main.c **** void Error_Handler(void)
  173:Core/Src/main.c **** {
- 198              		.loc 1 173 0
- 199              		.cfi_startproc
- 200              		@ args = 0, pretend = 0, frame = 0
- 201              		@ frame_needed = 0, uses_anonymous_args = 0
- 202              		@ link register save eliminated.
+ 195              		.loc 1 173 0
+ 196              		.cfi_startproc
+ 197              		@ args = 0, pretend = 0, frame = 0
+ 198              		@ frame_needed = 0, uses_anonymous_args = 0
+ 199              		@ link register save eliminated.
  174:Core/Src/main.c ****   /* USER CODE BEGIN Error_Handler_Debug */
  175:Core/Src/main.c ****   /* User can add his own implementation to report the HAL error return state */
  176:Core/Src/main.c **** 
  177:Core/Src/main.c ****   /* USER CODE END Error_Handler_Debug */
  178:Core/Src/main.c **** }
- 203              		.loc 1 178 0
- 204 0000 7047     		bx	lr
- 205              		.cfi_endproc
- 206              	.LFE134:
- 208              		.section	.text.assert_failed,"ax",%progbits
- 209              		.align	1
- 210              		.global	assert_failed
- 211              		.syntax unified
- 212              		.thumb
- 213              		.thumb_func
- 214              		.fpu fpv4-sp-d16
- 216              	assert_failed:
- 217              	.LFB135:
+ 200              		.loc 1 178 0
+ 201 0000 7047     		bx	lr
+ 202              		.cfi_endproc
+ 203              	.LFE134:
+ 205              		.section	.text.assert_failed,"ax",%progbits
+ 206              		.align	1
+ 207              		.global	assert_failed
+ 208              		.syntax unified
+ 209              		.thumb
+ 210              		.thumb_func
+ 211              		.fpu fpv4-sp-d16
+ 213              	assert_failed:
+ 214              	.LFB135:
  179:Core/Src/main.c **** 
-ARM GAS  /tmp/cczrOr4i.s 			page 8
-
-
  180:Core/Src/main.c **** #ifdef  USE_FULL_ASSERT
  181:Core/Src/main.c **** /**
  182:Core/Src/main.c ****   * @brief  Reports the name of the source file and the source line number
  183:Core/Src/main.c ****   *         where the assert_param error has occurred.
+ARM GAS  /tmp/ccDnREcx.s 			page 8
+
+
  184:Core/Src/main.c ****   * @param  file: pointer to the source file name
  185:Core/Src/main.c ****   * @param  line: assert_param error line source number
  186:Core/Src/main.c ****   * @retval None
  187:Core/Src/main.c ****   */
  188:Core/Src/main.c **** void assert_failed(uint8_t *file, uint32_t line)
  189:Core/Src/main.c **** {
- 218              		.loc 1 189 0
- 219              		.cfi_startproc
- 220              		@ args = 0, pretend = 0, frame = 0
- 221              		@ frame_needed = 0, uses_anonymous_args = 0
- 222              		@ link register save eliminated.
- 223              	.LVL15:
+ 215              		.loc 1 189 0
+ 216              		.cfi_startproc
+ 217              		@ args = 0, pretend = 0, frame = 0
+ 218              		@ frame_needed = 0, uses_anonymous_args = 0
+ 219              		@ link register save eliminated.
+ 220              	.LVL14:
  190:Core/Src/main.c ****   /* USER CODE BEGIN 6 */
  191:Core/Src/main.c ****   /* User can add his own implementation to report the file name and line number,
  192:Core/Src/main.c ****      tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
  193:Core/Src/main.c ****   /* USER CODE END 6 */
  194:Core/Src/main.c **** }
- 224              		.loc 1 194 0
- 225 0000 7047     		bx	lr
- 226              		.cfi_endproc
- 227              	.LFE135:
- 229              		.text
- 230              	.Letext0:
- 231              		.file 2 "/usr/include/newlib/machine/_default_types.h"
- 232              		.file 3 "/usr/include/newlib/sys/_stdint.h"
- 233              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
- 234              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
- 235              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h"
- 236              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
- 237              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h"
- 238              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h"
- 239              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
- 240              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h"
- 241              		.file 12 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
- 242              		.file 13 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
- 243              		.file 14 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
- 244              		.file 15 "Core/Inc/usart.h"
- 245              		.file 16 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
- 246              		.file 17 "Core/Inc/gpio.h"
- 247              		.file 18 "Core/Src/Cpp/app_main.h"
- 248              		.file 19 "<built-in>"
-ARM GAS  /tmp/cczrOr4i.s 			page 9
+ 221              		.loc 1 194 0
+ 222 0000 7047     		bx	lr
+ 223              		.cfi_endproc
+ 224              	.LFE135:
+ 226              		.text
+ 227              	.Letext0:
+ 228              		.file 2 "/usr/include/newlib/machine/_default_types.h"
+ 229              		.file 3 "/usr/include/newlib/sys/_stdint.h"
+ 230              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 231              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
+ 232              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g474xx.h"
+ 233              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
+ 234              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h"
+ 235              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h"
+ 236              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h"
+ 237              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h"
+ 238              		.file 12 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h"
+ 239              		.file 13 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
+ 240              		.file 14 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ 241              		.file 15 "Core/Inc/usart.h"
+ 242              		.file 16 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
+ 243              		.file 17 "Core/Inc/gpio.h"
+ 244              		.file 18 "<built-in>"
+ARM GAS  /tmp/ccDnREcx.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-     /tmp/cczrOr4i.s:18     .text.SystemClock_Config:0000000000000000 $t
-     /tmp/cczrOr4i.s:25     .text.SystemClock_Config:0000000000000000 SystemClock_Config
-     /tmp/cczrOr4i.s:129    .text.main:0000000000000000 $t
-     /tmp/cczrOr4i.s:136    .text.main:0000000000000000 main
-     /tmp/cczrOr4i.s:189    .text.Error_Handler:0000000000000000 $t
-     /tmp/cczrOr4i.s:196    .text.Error_Handler:0000000000000000 Error_Handler
-     /tmp/cczrOr4i.s:209    .text.assert_failed:0000000000000000 $t
-     /tmp/cczrOr4i.s:216    .text.assert_failed:0000000000000000 assert_failed
+     /tmp/ccDnREcx.s:18     .text.SystemClock_Config:0000000000000000 $t
+     /tmp/ccDnREcx.s:25     .text.SystemClock_Config:0000000000000000 SystemClock_Config
+     /tmp/ccDnREcx.s:129    .text.main:0000000000000000 $t
+     /tmp/ccDnREcx.s:136    .text.main:0000000000000000 main
+     /tmp/ccDnREcx.s:186    .text.Error_Handler:0000000000000000 $t
+     /tmp/ccDnREcx.s:193    .text.Error_Handler:0000000000000000 Error_Handler
+     /tmp/ccDnREcx.s:206    .text.assert_failed:0000000000000000 $t
+     /tmp/ccDnREcx.s:213    .text.assert_failed:0000000000000000 assert_failed
 
 UNDEFINED SYMBOLS
 memset
@@ -489,6 +484,5 @@ HAL_RCCEx_PeriphCLKConfig
 HAL_Init
 MX_GPIO_Init
 MX_LPUART1_UART_Init
-app_main
 HAL_GPIO_WritePin
 HAL_Delay
