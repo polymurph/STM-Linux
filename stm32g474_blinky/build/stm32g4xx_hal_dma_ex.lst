@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc6b0m3Y.s 			page 1
+ARM GAS  /tmp/ccbqwqkC.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****   ******************************************************************************
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****   * @attention
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****   *
-ARM GAS  /tmp/cc6b0m3Y.s 			page 2
+ARM GAS  /tmp/ccbqwqkC.s 			page 2
 
 
   32:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****   * <h2><center>&copy; Copyright (c) 2019 STMicroelectronics.
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****   */
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c **** 
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c **** 
-ARM GAS  /tmp/cc6b0m3Y.s 			page 3
+ARM GAS  /tmp/ccbqwqkC.s 			page 3
 
 
   89:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c **** /**
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
   71              		.loc 1 99 0 discriminator 7
   72 0032 1432     		adds	r2, r2, #20
   73 0034 9342     		cmp	r3, r2
-ARM GAS  /tmp/cc6b0m3Y.s 			page 4
+ARM GAS  /tmp/ccbqwqkC.s 			page 4
 
 
   74 0036 1CD0     		beq	.L2
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  124 007c B3F5003F 		cmp	r3, #131072
  125 0080 05D0     		beq	.L4
  126              		.loc 1 103 0 discriminator 2
-ARM GAS  /tmp/cc6b0m3Y.s 			page 5
+ARM GAS  /tmp/ccbqwqkC.s 			page 5
 
 
  127 0082 B3F5802F 		cmp	r3, #262144
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  155 00ac 0120     		movs	r0, #1
  156              	.L8:
  130:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****   }
-ARM GAS  /tmp/cc6b0m3Y.s 			page 6
+ARM GAS  /tmp/ccbqwqkC.s 			page 6
 
 
  131:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c **** }
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  115:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****                (~DMAMUX_CxCR_DMAREQ_ID), \
  203              		.loc 1 115 0 is_stmt 1 discriminator 2
  204 00f0 A96C     		ldr	r1, [r5, #72]
-ARM GAS  /tmp/cc6b0m3Y.s 			page 7
+ARM GAS  /tmp/ccbqwqkC.s 			page 7
 
 
  205 00f2 0A68     		ldr	r2, [r1]
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  143:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****                                                       HAL_DMA_MuxRequestGeneratorConfigTypeDef *pRe
  144:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c **** {
  247              		.loc 1 144 0
-ARM GAS  /tmp/cc6b0m3Y.s 			page 8
+ARM GAS  /tmp/ccbqwqkC.s 			page 8
 
 
  248              		.cfi_startproc
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  300 0042 9342     		cmp	r3, r2
  301 0044 15D0     		beq	.L21
  302              		.loc 1 146 0 discriminator 10
-ARM GAS  /tmp/cc6b0m3Y.s 			page 9
+ARM GAS  /tmp/ccbqwqkC.s 			page 9
 
 
  303 0046 1432     		adds	r2, r2, #20
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  352              		.loc 1 151 0 is_stmt 1
  353 008e A368     		ldr	r3, [r4, #8]
  354 0090 013B     		subs	r3, r3, #1
-ARM GAS  /tmp/cc6b0m3Y.s 			page 10
+ARM GAS  /tmp/ccbqwqkC.s 			page 10
 
 
  355 0092 1F2B     		cmp	r3, #31
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  151:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c **** 
  384              		.loc 1 151 0 discriminator 1
  385 00b8 9721     		movs	r1, #151
-ARM GAS  /tmp/cc6b0m3Y.s 			page 11
+ARM GAS  /tmp/ccbqwqkC.s 			page 11
 
 
  386 00ba 1548     		ldr	r0, .L36+4
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
   26:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __CMSIS_GCC_H
   27:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   28:Drivers/CMSIS/Include/cmsis_gcc.h **** /* ignore some GCC warnings */
-ARM GAS  /tmp/cc6b0m3Y.s 			page 12
+ARM GAS  /tmp/ccbqwqkC.s 			page 12
 
 
   29:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic push
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
   83:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
   84:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT16_WRITE(addr, val)    (void)((((struct T_UINT16_WRITE *)(void *)(addr))-
   85:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  /tmp/cc6b0m3Y.s 			page 13
+ARM GAS  /tmp/ccbqwqkC.s 			page 13
 
 
   86:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT16_READ
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  140:Drivers/CMSIS/Include/cmsis_gcc.h ****   
  141:Drivers/CMSIS/Include/cmsis_gcc.h ****   typedef struct {
  142:Drivers/CMSIS/Include/cmsis_gcc.h ****     uint32_t* dest;
-ARM GAS  /tmp/cc6b0m3Y.s 			page 14
+ARM GAS  /tmp/ccbqwqkC.s 			page 14
 
 
  143:Drivers/CMSIS/Include/cmsis_gcc.h ****     uint32_t  wlen;
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  197:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  198:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsie i" : : : "memory");
  199:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  /tmp/cc6b0m3Y.s 			page 15
+ARM GAS  /tmp/ccbqwqkC.s 			page 15
 
 
  200:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  254:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
  255:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  256:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Control Register (non-secure)
-ARM GAS  /tmp/cc6b0m3Y.s 			page 16
+ARM GAS  /tmp/ccbqwqkC.s 			page 16
 
 
  257:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Writes the given value to the non-secure Control Register when in secure state.
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  311:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Process Stack Pointer (PSP).
  312:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               PSP Register value
  313:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  /tmp/cc6b0m3Y.s 			page 17
+ARM GAS  /tmp/ccbqwqkC.s 			page 17
 
 
  314:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_PSP(void)
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  368:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_MSP(void)
  369:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  370:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
-ARM GAS  /tmp/cc6b0m3Y.s 			page 18
+ARM GAS  /tmp/ccbqwqkC.s 			page 18
 
 
  371:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  425:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  426:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  427:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, sp_ns" : "=r" (result) );
-ARM GAS  /tmp/cc6b0m3Y.s 			page 19
+ARM GAS  /tmp/ccbqwqkC.s 			page 19
 
 
  428:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  482:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  483:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  484:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/cc6b0m3Y.s 			page 20
+ARM GAS  /tmp/ccbqwqkC.s 			page 20
 
 
  485:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  539:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Base Priority (non-secure)
  540:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the non-secure Base Priority register when in secure state.
  541:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Base Priority register value
-ARM GAS  /tmp/cc6b0m3Y.s 			page 21
+ARM GAS  /tmp/ccbqwqkC.s 			page 21
 
 
  542:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  596:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  597:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  598:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, faultmask" : "=r" (result) );
-ARM GAS  /tmp/cc6b0m3Y.s 			page 22
+ARM GAS  /tmp/ccbqwqkC.s 			page 22
 
 
  599:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  653:Drivers/CMSIS/Include/cmsis_gcc.h ****   Stack Pointer Limit register hence zero is returned always in non-secure
  654:Drivers/CMSIS/Include/cmsis_gcc.h ****   mode.
  655:Drivers/CMSIS/Include/cmsis_gcc.h ****   
-ARM GAS  /tmp/cc6b0m3Y.s 			page 23
+ARM GAS  /tmp/ccbqwqkC.s 			page 23
 
 
  656:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Process Stack Pointer Limit (PSPLIM).
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  710:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
  711:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR psplim, %0" : : "r" (ProcStackPtrLimit));
  712:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  /tmp/cc6b0m3Y.s 			page 24
+ARM GAS  /tmp/ccbqwqkC.s 			page 24
 
 
  713:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  767:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               MSPLIM Register value
  768:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  769:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_MSPLIM_NS(void)
-ARM GAS  /tmp/cc6b0m3Y.s 			page 25
+ARM GAS  /tmp/ccbqwqkC.s 			page 25
 
 
  770:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  824:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif /* ((defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) || \
  825:Drivers/CMSIS/Include/cmsis_gcc.h ****            (defined (__ARM_ARCH_8M_BASE__ ) && (__ARM_ARCH_8M_BASE__ == 1))    ) */
  826:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  /tmp/cc6b0m3Y.s 			page 26
+ARM GAS  /tmp/ccbqwqkC.s 			page 26
 
 
  827:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  881:Drivers/CMSIS/Include/cmsis_gcc.h **** /** \defgroup CMSIS_Core_InstructionInterface CMSIS Core Instruction Interface
  882:Drivers/CMSIS/Include/cmsis_gcc.h ****   Access to dedicated instructions
  883:Drivers/CMSIS/Include/cmsis_gcc.h ****   @{
-ARM GAS  /tmp/cc6b0m3Y.s 			page 27
+ARM GAS  /tmp/ccbqwqkC.s 			page 27
 
 
  884:Drivers/CMSIS/Include/cmsis_gcc.h **** */
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  938:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  939:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  940:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Data Synchronization Barrier
-ARM GAS  /tmp/cc6b0m3Y.s 			page 28
+ARM GAS  /tmp/ccbqwqkC.s 			page 28
 
 
  941:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Acts as a special kind of Data Memory Barrier.
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  995:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  996:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Reverse byte order (16 bit)
  997:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Reverses the byte order in a 16-bit value and returns the signed 16-bit result. For exam
-ARM GAS  /tmp/cc6b0m3Y.s 			page 29
+ARM GAS  /tmp/ccbqwqkC.s 			page 29
 
 
  998:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    value  Value to reverse
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
 1052:Drivers/CMSIS/Include/cmsis_gcc.h **** #if ((defined (__ARM_ARCH_7M__      ) && (__ARM_ARCH_7M__      == 1)) || \
 1053:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_7EM__     ) && (__ARM_ARCH_7EM__     == 1)) || \
 1054:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1))    )
-ARM GAS  /tmp/cc6b0m3Y.s 			page 30
+ARM GAS  /tmp/ccbqwqkC.s 			page 30
 
 
 1055:Drivers/CMSIS/Include/cmsis_gcc.h ****    __ASM volatile ("rbit %0, %1" : "=r" (result) : "r" (value) );
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  425              		.loc 2 1093 0
  426 00e4 B3FA83F3 		clz	r3, r3
  427              	.L26:
-ARM GAS  /tmp/cc6b0m3Y.s 			page 31
+ARM GAS  /tmp/ccbqwqkC.s 			page 31
 
 
  428              	.LBE9:
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  473              		.syntax unified
  474              		.thumb
  475              		.thumb_func
-ARM GAS  /tmp/cc6b0m3Y.s 			page 32
+ARM GAS  /tmp/ccbqwqkC.s 			page 32
 
 
  476              		.fpu fpv4-sp-d16
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  520              		.loc 1 185 0 discriminator 7
  521 0030 1432     		adds	r2, r2, #20
  522 0032 9342     		cmp	r3, r2
-ARM GAS  /tmp/cc6b0m3Y.s 			page 33
+ARM GAS  /tmp/ccbqwqkC.s 			page 33
 
 
  523 0034 1CD0     		beq	.L39
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  194:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c ****     hdma->DMAmuxRequestGen->RGCR |= DMAMUX_RGxCR_GE;
  569              		.loc 1 194 0 is_stmt 1
  570 007a 1A68     		ldr	r2, [r3]
-ARM GAS  /tmp/cc6b0m3Y.s 			page 34
+ARM GAS  /tmp/ccbqwqkC.s 			page 34
 
 
  571 007c 42F48032 		orr	r2, r2, #65536
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  609              	.LVL24:
  610 0000 10B5     		push	{r4, lr}
  611              	.LCFI3:
-ARM GAS  /tmp/cc6b0m3Y.s 			page 35
+ARM GAS  /tmp/ccbqwqkC.s 			page 35
 
 
  612              		.cfi_def_cfa_offset 8
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  664 004e 0FD0     		beq	.L47
  665              		.loc 1 213 0 discriminator 12
  666 0050 1432     		adds	r2, r2, #20
-ARM GAS  /tmp/cc6b0m3Y.s 			page 36
+ARM GAS  /tmp/ccbqwqkC.s 			page 36
 
 
  667 0052 9342     		cmp	r3, r2
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  230:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c **** }
  705              		.loc 1 230 0
  706 0088 10BD     		pop	{r4, pc}
-ARM GAS  /tmp/cc6b0m3Y.s 			page 37
+ARM GAS  /tmp/ccbqwqkC.s 			page 37
 
 
  707              	.LVL27:
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  748 000e 826C     		ldr	r2, [r0, #72]
  749 0010 1368     		ldr	r3, [r2]
  750 0012 23F48073 		bic	r3, r3, #256
-ARM GAS  /tmp/cc6b0m3Y.s 			page 38
+ARM GAS  /tmp/ccbqwqkC.s 			page 38
 
 
  751 0016 1360     		str	r3, [r2]
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  781 0042 A36D     		ldr	r3, [r4, #88]
  782 0044 E26D     		ldr	r2, [r4, #92]
  783 0046 5A60     		str	r2, [r3, #4]
-ARM GAS  /tmp/cc6b0m3Y.s 			page 39
+ARM GAS  /tmp/ccbqwqkC.s 			page 39
 
 
  269:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c **** 
@@ -2334,26 +2334,26 @@ ARM GAS  /tmp/cc6b0m3Y.s 			page 1
  818              		.file 13 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_uart.h"
  819              		.file 14 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
  820              		.file 15 "Core/Inc/stm32g4xx_hal_conf.h"
-ARM GAS  /tmp/cc6b0m3Y.s 			page 40
+ARM GAS  /tmp/ccbqwqkC.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32g4xx_hal_dma_ex.c
-     /tmp/cc6b0m3Y.s:18     .text.HAL_DMAEx_ConfigMuxSync:0000000000000000 $t
-     /tmp/cc6b0m3Y.s:25     .text.HAL_DMAEx_ConfigMuxSync:0000000000000000 HAL_DMAEx_ConfigMuxSync
-     /tmp/cc6b0m3Y.s:232    .text.HAL_DMAEx_ConfigMuxSync:0000000000000124 $d
-     /tmp/cc6b0m3Y.s:238    .text.HAL_DMAEx_ConfigMuxRequestGenerator:0000000000000000 $t
-     /tmp/cc6b0m3Y.s:245    .text.HAL_DMAEx_ConfigMuxRequestGenerator:0000000000000000 HAL_DMAEx_ConfigMuxRequestGenerator
-     /tmp/cc6b0m3Y.s:465    .text.HAL_DMAEx_ConfigMuxRequestGenerator:000000000000010c $d
-     /tmp/cc6b0m3Y.s:471    .text.HAL_DMAEx_EnableMuxRequestGenerator:0000000000000000 $t
-     /tmp/cc6b0m3Y.s:478    .text.HAL_DMAEx_EnableMuxRequestGenerator:0000000000000000 HAL_DMAEx_EnableMuxRequestGenerator
-     /tmp/cc6b0m3Y.s:590    .text.HAL_DMAEx_EnableMuxRequestGenerator:0000000000000090 $d
-     /tmp/cc6b0m3Y.s:596    .text.HAL_DMAEx_DisableMuxRequestGenerator:0000000000000000 $t
-     /tmp/cc6b0m3Y.s:603    .text.HAL_DMAEx_DisableMuxRequestGenerator:0000000000000000 HAL_DMAEx_DisableMuxRequestGenerator
-     /tmp/cc6b0m3Y.s:715    .text.HAL_DMAEx_DisableMuxRequestGenerator:0000000000000090 $d
-     /tmp/cc6b0m3Y.s:721    .text.HAL_DMAEx_MUX_IRQHandler:0000000000000000 $t
-     /tmp/cc6b0m3Y.s:728    .text.HAL_DMAEx_MUX_IRQHandler:0000000000000000 HAL_DMAEx_MUX_IRQHandler
-     /tmp/cc6b0m3Y.s:802    .rodata.HAL_DMAEx_ConfigMuxSync.str1.4:0000000000000000 $d
+     /tmp/ccbqwqkC.s:18     .text.HAL_DMAEx_ConfigMuxSync:0000000000000000 $t
+     /tmp/ccbqwqkC.s:25     .text.HAL_DMAEx_ConfigMuxSync:0000000000000000 HAL_DMAEx_ConfigMuxSync
+     /tmp/ccbqwqkC.s:232    .text.HAL_DMAEx_ConfigMuxSync:0000000000000124 $d
+     /tmp/ccbqwqkC.s:238    .text.HAL_DMAEx_ConfigMuxRequestGenerator:0000000000000000 $t
+     /tmp/ccbqwqkC.s:245    .text.HAL_DMAEx_ConfigMuxRequestGenerator:0000000000000000 HAL_DMAEx_ConfigMuxRequestGenerator
+     /tmp/ccbqwqkC.s:465    .text.HAL_DMAEx_ConfigMuxRequestGenerator:000000000000010c $d
+     /tmp/ccbqwqkC.s:471    .text.HAL_DMAEx_EnableMuxRequestGenerator:0000000000000000 $t
+     /tmp/ccbqwqkC.s:478    .text.HAL_DMAEx_EnableMuxRequestGenerator:0000000000000000 HAL_DMAEx_EnableMuxRequestGenerator
+     /tmp/ccbqwqkC.s:590    .text.HAL_DMAEx_EnableMuxRequestGenerator:0000000000000090 $d
+     /tmp/ccbqwqkC.s:596    .text.HAL_DMAEx_DisableMuxRequestGenerator:0000000000000000 $t
+     /tmp/ccbqwqkC.s:603    .text.HAL_DMAEx_DisableMuxRequestGenerator:0000000000000000 HAL_DMAEx_DisableMuxRequestGenerator
+     /tmp/ccbqwqkC.s:715    .text.HAL_DMAEx_DisableMuxRequestGenerator:0000000000000090 $d
+     /tmp/ccbqwqkC.s:721    .text.HAL_DMAEx_MUX_IRQHandler:0000000000000000 $t
+     /tmp/ccbqwqkC.s:728    .text.HAL_DMAEx_MUX_IRQHandler:0000000000000000 HAL_DMAEx_MUX_IRQHandler
+     /tmp/ccbqwqkC.s:802    .rodata.HAL_DMAEx_ConfigMuxSync.str1.4:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 assert_failed

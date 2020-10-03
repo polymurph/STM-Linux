@@ -1,9 +1,6 @@
 #include "app_main.h"
 
-void app_main()
+int app_main()
 {
-	while(1)
-	{
-
-	}
+	return 1; 
 }
