@@ -33,6 +33,8 @@ then
 	fi
 	echo
 
+	sudo rm -r stmcube
+
 	read -p "do you want to perform st-info --probe (y/n) ?: " yesorno
 	if [ "$yesorno" = "y" ]; then
 		st-info --probe
