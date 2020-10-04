@@ -201,7 +201,7 @@ clean:
 # BURN TO FLASH
 #######################################
 burn:
-	st-flash write build/$(TARGET).bin 0x80000000
+	st-flash write build/$(TARGET).bin 0x8000000
 #######################################
 # dependencies
 #######################################
