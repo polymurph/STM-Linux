@@ -14,6 +14,7 @@
 # target
 ######################################
 TARGET = stm32g474_blinky
+GCC_PATH = ~/github/STM-Linux/gcc-arm-none-eabi-9-2020-q2-update/bin/
 
 
 ######################################
@@ -151,6 +152,12 @@ LDSCRIPT = STM32G474RETx_FLASH.ld
 LIBS = -lc -lm -lnosys 
 LIBDIR = 
 LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# Changed By Key
+#Linked flags for compilation iwth CPP for now i was not able to find a better way : 
+# -specs=nano.specs is ptomized for MCU code size and Speed but it's causing somehow issue during liking
+#  to be bale to compile -specs=nanospecs is prelaced with -specs=nosys.specs
+#  this is resulting on a bigger code but working with C++
+CPPLDFLAGS = $(MCU) -specs=nosys.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
@@ -181,7 +188,7 @@ $(BUILD_DIR)/%.o: %.s Makefile | $(BUILD_DIR)
 	$(AS) -c $(CFLAGS) $< -o $@
 
 $(BUILD_DIR)/$(TARGET).elf: $(OBJECTS) Makefile
-	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(CC) $(OBJECTS) $(CPPLDFLAGS) -o $@ #different flag confuration for Linker
 	$(SZ) $@
 
 $(BUILD_DIR)/%.hex: $(BUILD_DIR)/%.elf | $(BUILD_DIR)
@@ -198,7 +205,13 @@ $(BUILD_DIR):
 #######################################
 clean:
 	-rm -fR $(BUILD_DIR)
-  
+
+#######################################
+#BURN TO FLASH
+#######################################
+burn:
+	st-flash write build/$(TARGET).bin 0x8000000
+
 #######################################
 # dependencies
 #######################################

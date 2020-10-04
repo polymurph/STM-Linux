@@ -6,6 +6,10 @@ extern "C"
 {
 #endif
 
+#include "main.h"
+#include "usart.h"
+#include "gpio.h"
+
 int app_main(); 
 
 #ifdef __cplusplus

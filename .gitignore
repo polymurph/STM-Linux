@@ -1,3 +1,7 @@
 compiler/
 stmcube/
 stm32g474_blinky/build/
+gcc-arm-none-eabi-9-2020-q2-update/
+maketest/build/
+example_proj/G431_blinki/build/
+
