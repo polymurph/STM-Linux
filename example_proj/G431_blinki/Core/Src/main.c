@@ -98,19 +98,6 @@ int main(void)
   {
         app_main(); // call c++ main loop
     /* USER CODE END WHILE */
-	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
-	for(i = 0; i < 0xFFFFF; i++);
-
-	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
-	for(i = 0; i < 0xFFFFF; i++);
-	
-	
-	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
-	for(i = 0; i < 0xFFFFFF; i++);
-
-	HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
-	for(i = 0; i < 0xFFFFFF; i++);
-
 
     /* USER CODE BEGIN 3 */
   }
