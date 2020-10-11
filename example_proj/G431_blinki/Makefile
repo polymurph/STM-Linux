@@ -39,10 +39,10 @@ C_SOURCES =  \
 Core/Src/main.c \
 Core/Src/stm32g4xx_it.c \
 Core/Src/stm32g4xx_hal_msp.c \
-Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c \
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c \
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c \
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c \
+Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c \
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c \
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c \
 Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c \
@@ -149,6 +149,7 @@ LDSCRIPT = STM32G431RBTx_FLASH.ld# change here
 LIBS = -lc -lm -lnosys 
 LIBDIR = 
 LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+CPPLDFLAGS = $(MCU) -specs=nosys.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
@@ -179,7 +180,7 @@ $(BUILD_DIR)/%.o: %.s Makefile | $(BUILD_DIR)
 	$(AS) -c $(CFLAGS) $< -o $@
 
 $(BUILD_DIR)/$(TARGET).elf: $(OBJECTS) Makefile
-	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(CC) $(OBJECTS) $(CPPLDFLAGS) -o $@
 	$(SZ) $@
 
 $(BUILD_DIR)/%.hex: $(BUILD_DIR)/%.elf | $(BUILD_DIR)

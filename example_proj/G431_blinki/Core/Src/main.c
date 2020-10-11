@@ -96,7 +96,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-        app_main(); // call c++ main loop
+    app_main(); // call c++ main loop
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
